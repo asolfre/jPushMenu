@@ -31,7 +31,7 @@
 
 /* Orientation-dependent styles for the content of the menu */
 .cbp-spmenu-vertical {
-    width: 240px;
+    width: 25%;
     height: 100%;
     top: 0;
     z-index: 1000;
@@ -66,11 +66,11 @@
 
 /* Vertical menu that slides from the left or right */
 .cbp-spmenu-left {
-    left: -240px;
+    left: -25%;
 }
 
 .cbp-spmenu-right {
-    right: -240px;
+    right: -25%;
 }
 
 .cbp-spmenu-left.menu-open {
@@ -107,11 +107,11 @@
 }
 
 .push-body-toright {
-    left: 240px;
+    left: 25%;
 }
 
 .push-body-toleft {
-    left: -240px;
+    left: -25%;
 }
 
 /* Transitions */
